@@ -17,3 +17,7 @@ def soma(a, b):
 def subtracao(a, b):
     subtracao = a - b
     return subtracao
+
+def multiplicacao(a, b):
+    multiplicacao = a*b
+    return multiplicacao

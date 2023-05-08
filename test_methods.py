@@ -42,7 +42,7 @@ def teste_soma():
     # when we calculate the adding of the values
     output = methods.soma(a, b)
 
-    # then the volume should be 12
+    # then the sum should be 12
     assert output == 12
 
 def teste_subtracao():
@@ -50,8 +50,19 @@ def teste_subtracao():
     a = 15
     b = 8
 
-    # when we calculate the adding of the values
+    # when we calculate the subtraction of the values
     output = methods.subtracao(a, b)
 
-    # then the volume should be 12
+    # then the subtraction should be 7
     assert output == 7
+
+def teste_multiplicacao():
+    # given a value 'a' of 5 and 'b' of 4
+    a = 5
+    b = 4
+
+    # when we calculate the multiplying of the values
+    output = methods.multiplicacao(a, b)
+
+    # then the multiplying should be 20
+    assert output == 20
