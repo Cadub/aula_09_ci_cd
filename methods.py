@@ -21,3 +21,7 @@ def subtracao(a, b):
 def multiplicacao(a, b):
     multiplicacao = a*b
     return multiplicacao
+
+def divisao(a, b):
+    divisao = a / b
+    return divisao

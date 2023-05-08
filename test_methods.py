@@ -66,3 +66,14 @@ def teste_multiplicacao():
 
     # then the multiplying should be 20
     assert output == 20
+
+def teste_divisao():
+    # given a value 'a' of 20 and 'b' of 4
+    a = 20
+    b = 4
+
+    # when we calculate the division of the values
+    output = methods.divisao(a, b)
+
+    # then the division should be 20
+    assert output == 5
