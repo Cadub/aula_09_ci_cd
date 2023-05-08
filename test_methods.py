@@ -44,3 +44,14 @@ def teste_soma():
 
     # then the volume should be 12
     assert output == 12
+
+def teste_subtracao():
+    # given a value 'a' of 15 and 'b' of 8
+    a = 15
+    b = 8
+
+    # when we calculate the adding of the values
+    output = methods.subtracao(a, b)
+
+    # then the volume should be 12
+    assert output == 7
