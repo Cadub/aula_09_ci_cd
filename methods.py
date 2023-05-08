@@ -9,3 +9,7 @@ def perimeter_of_rectangle(width, height):
 def volume_of_parallelepiped(length, width, height):
     volume = length*width*height
     return volume
+
+def soma(a, b):
+    soma = a + b
+    return soma

@@ -28,8 +28,19 @@ def test_volume():
     width = 2
     height = 5
 
-    # when we calculate the perimeter
+    # when we calculate the volume
     output = methods.volume_of_parallelepiped(length, width, height)
     
-    # then the perimeter should be 30
+    # then the volume should be 30
     assert output == 30
+
+def teste_soma():
+    # given a value 'a' of 5 and 'b' of 7
+    a = 5
+    b = 7
+
+    # when we calculate the adding of the values
+    output = methods.soma(a, b)
+
+    # then the volume should be 12
+    assert output == 12
